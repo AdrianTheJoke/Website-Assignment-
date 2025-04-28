@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures the body takes up full height */
+        }
+
+        /* Header */
+        header {
+            background-color: #0700cc41;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #fff;
+            border-bottom: 2px solid #ccc;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 10px 20px;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            flex-grow: 1; /* Allows main content to take available space */
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        /* Sections */
+        section {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 900px;
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Lists and Links */
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        ul li a {
+            font-size: 18px;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        ul li a:hover {
+            color: #003366;
+            text-decoration: underline;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto; /* Pushes the footer to the bottom */
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Mobile-friendly styling */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section {
+                padding: 15px;
+                margin: 10px;
+            }
+
+            footer p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Resources</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Lesson Resources</h2>
+            <p>Here are the lessons you can access to learn more:</p>
+            <ul>
+                <li><a href="lessons/lesson1.html">Lesson One: Introduction to Web Development</a></li>
+                <li><a href="lessons/lesson2.html">Lesson Two: HTML Basics</a></li>
+                <li><a href="lessons/lesson3.html">Lesson Three: CSS Styling</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Additional Resources</h2>
+            <p>In addition to the lessons, here are some resources that might help you:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs: HTML</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs: CSS</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

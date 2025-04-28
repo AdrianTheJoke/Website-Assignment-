@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title> <!-- corrected title -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #0700cc41;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0066cc4c;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            margin-bottom: 40px;
+            flex-grow: 1; /* Ensures main content takes available space */
+        }
+
+        /* Sections */
+        section {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Contact Info Styling */
+        .contact-info {
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-info h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .contact-details p {
+            margin: 10px 0;
+        }
+
+        /* Education Box Styling */
+        .education-box {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .education-box h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .education-box p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Social Media Box Styling */
+        .social-media-box {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .social-media-box h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .social-media-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .social-media-box li {
+            margin: 10px 0;
+        }
+
+        .social-media-box a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .social-media-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            margin-top: auto; /* Pushes footer to the bottom */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contact-info">
+            <h2>We'd love to hear from you!</h2>
+            <p>If you have any questions, feel free to reach out to us through the contact details below or fill out the form, and we'll get back to you as soon as possible.</p>
+            
+            <div class="contact-details">
+                <p><strong>Email:</strong> <a href="mailto:support@educationalwebsite.com">support@educationalwebsite.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p><strong>Address:</strong> 123 Education St., Learning City, LC 56789</p>
+            </div>
+        </div>
+
+        <!-- Social Media Box Section -->
+        <section class="social-media-box">
+            <h3>Our Social Media</h3>
+            <p>Follow us on our social media channels to stay updated:</p>
+            <ul>
+                <li><a href="https://facebook.com/educationalwebsite" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/educationalwebsite" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/educationalwebsite" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <!-- Education Box Section -->
+        <section class="education-box">
+            <h2>Education Section</h2>
+            <p>Here, you can learn all about networking, IP addressing, protocols, and much more. The lessons are designed to cater to all learning levels, providing step-by-step guidance.</p>
+            <p>Feel free to browse through our resources and learn at your own pace. If you need any help, don’t hesitate to reach out to us!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

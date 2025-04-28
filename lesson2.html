@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2: HTML Basics</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Styling for video section */
+        .video-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-section h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+
+        .video-description {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul style="list-style: none; display: flex; gap: 15px; padding: 10px; background-color: #ffffff;">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../resources.html">Resources</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Lesson 2: HTML Basics</h1>
+            <p>In this lesson, you will learn the fundamentals of HTML, the markup language that forms the structure of a webpage.</p>
+            
+            <h2>What is HTML?</h2>
+            <p>HTML (Hypertext Markup Language) is the standard language used to create webpages. It structures the content on the web, such as text, images, and links.</p>
+            
+            <h2>HTML Tags</h2>
+            <p>HTML uses "tags" to define elements. Some common tags include:</p>
+            <ul>
+                <li><strong>&lt;h1&gt; to &lt;h6&gt;:</strong> Defines headings (from largest to smallest).</li>
+                <li><strong>&lt;p&gt;:</strong> Defines a paragraph of text.</li>
+                <li><strong>&lt;a&gt;:</strong> Defines a hyperlink.</li>
+                <li><strong>&lt;img&gt;:</strong> Defines an image.</li>
+                <li><strong>&lt;ul&gt; and &lt;li&gt;:</strong> Defines an unordered list and its list items.</li>
+            </ul>
+
+            <!-- Video Section -->
+            <section class="video-section">
+                <h2>Watch this Video: HTML Basics</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/pQN-pnP7b8M" title="HTML Basics Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-description">This video will introduce you to the basics of HTML, including its structure and common tags.</p>
+            </section>
+
+            <h2>Why Learn HTML?</h2>
+            <p>HTML is essential for web development, as it forms the backbone of every website. It allows you to organize content, add multimedia, and create links to other pages.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

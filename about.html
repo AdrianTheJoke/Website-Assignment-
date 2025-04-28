@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #0700cc41;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0066cc4c;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            margin-bottom: 40px;
+            flex-grow: 1; /* Ensures main content takes available space */
+        }
+
+        /* Sections */
+        section {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Styling for the lesson boxes */
+        .lesson-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .lesson-description {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto; /* Pushes the footer to the bottom */
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Our Educational Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Lesson Overview</h2>
+            <p>We offer a range of networking lessons that help students build a strong foundation in the field.</p>
+
+            <div class="lesson-box">
+                <h3>Lesson 1: Introduction to Networking</h3>
+                <p>Learn the basics of networking, including types of networks, devices, and protocols.</p>
+                <div class="lesson-description">
+                    <p>This lesson introduces the core concepts of networking, including how networks are structured and how data flows between devices.</p>
+                </div>
+            </div>
+
+            <div class="lesson-box">
+                <h3>Lesson 2: IP Addressing</h3>
+                <p>Understand IP addressing, including IPv4 and IPv6 formats and how they are used in networks.</p>
+                <div class="lesson-description">
+                    <p>In this lesson, you'll explore IP addresses, subnetting, and how IP addresses are assigned in real-world networks.</p>
+                </div>
+            </div>
+
+            <div class="lesson-box">
+                <h3>Lesson 3: Protocols</h3>
+                <p>Learn about different network protocols and how they enable communication over the internet.</p>
+                <div class="lesson-description">
+                    <p>This lesson covers the various protocols like TCP/IP, DNS, and HTTP that make the internet function smoothly and securely.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
